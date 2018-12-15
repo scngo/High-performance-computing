@@ -17,11 +17,11 @@ qsub mpcuqd1.pbs
 ```
 
 ## Simulation system
-L_x = 250 au each rank
-N_x = 2496 au
-DeltaT * Nstep = 50 au total simulated
-2e-3 au * 2.5e4 = 1.4e-17 sec
-E0 = k0^2/2 = 100 au
+* L_x = 250 au each rank
+* N_x = 2496 au
+* DeltaT * Nstep = 50 au total simulated
+* 2e-3 au * 2.5e4 = 1.4e-17 sec
+* E0 = k0^2/2 = 100 au
 
 ```
 || E_h = 50 au                           ||
