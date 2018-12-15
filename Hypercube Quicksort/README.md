@@ -11,6 +11,6 @@ MPI program performing hypercube quick sort and merge sort. Tested on USC HPC cl
 
 ```
 qsub hcqsort.pbs
-'''
+```
 
 
