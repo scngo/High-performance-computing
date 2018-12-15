@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=4:ppn=1,arch=x86_64
+#PBS -l walltime=00:01:59
+#PBS -o mpwavelet.out
+#PBS -j oe
+#PBS -N mpwavelet
+#PBS -A lc_an1
+WORK_HOME=/home/rcf-40/xinzengw
+cd $WORK_HOME
+np=$(cat $PBS_NODEFILE | wc -l)
+mpirun -np $np -machinefile $PBS_NODEFILE ./mpwavelet
