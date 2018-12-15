@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=8:ppn=1,arch=x86_64
+#PBS -l walltime=00:01:59
+#PBS -o hcqsort.out
+#PBS -j oe
+#PBS -N hcqsort
+#PBS -A lc_an1
+WORK_HOME=/home/rcf-40/xinzengw
+cd $WORK_HOME
+np=$(cat $PBS_NODEFILE | wc -l)
+mpirun -np $np -machinefile $PBS_NODEFILE ./hcqsort

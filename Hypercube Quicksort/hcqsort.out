@@ -1,0 +1,47 @@
+----------------------------------------
+Begin PBS Prologue Mon Sep 26 19:34:36 PDT 2016
+Job ID:            21625386.hpc-pbs2.hpcc.usc.edu
+Username:          xinzengw
+Group:             phys-ar
+Project:           lc_an1
+Name:              hcqsort
+Queue:             main
+Shared Access:     no
+All Cores:         no
+Has MIC:           no
+Nodes:             hpc3999 hpc4003 hpc4005 hpc4008 hpc4009 hpc4012 hpc4013 hpc4038 
+Scratch is:         /scratch
+TMPDIR:            /tmp/21625386.hpc-pbs2.hpcc.usc.edu
+End PBS Prologue Mon Sep 26 19:34:48 PDT 2016
+----------------------------------------
+Before: Node  0 : 28  43  72  79 
+Before: Node  7 : 94  27  93  44 
+Before: Node  5 : 45  61  97  41 
+Before: Node  6 : 81  51  41   4 
+Before: Node  4 : 88  32  12  72 
+Before: Node  3 : 79  86  73  35 
+Before: Node  2 : 66  67  18  42 
+Before: Node  1 : 96  19  17  71 
+After:  Node  0 :  4  12 
+After:  Node  1 : 17  18  19  27  28 
+After:  Node  4 : 61  66  67 
+After:  Node  5 : 71  72  72  73 
+After:  Node  6 : 79  79  81 
+After:  Node  7 : 86  88  93  94  96  97 
+After:  Node  3 : 42  43  44  45  51 
+After:  Node  2 : 32  35  41  41 
+----------------------------------------
+Begin PBS Epilogue Mon Sep 26 19:34:49 PDT 2016
+Job ID:           21625386.hpc-pbs2.hpcc.usc.edu
+Username:         xinzengw
+Group:            phys-ar
+Job Name:         hcqsort
+Session:          19299
+Limits:           neednodes=8:ppn=1,nodes=8:ppn=1,walltime=00:01:59
+Resources:        cput=00:00:01,energy_used=0,mem=429128kb,vmem=0kb,walltime=00:00:02
+Queue:            main
+Shared Access:    no
+Has MIC:          no
+Account:          lc_an1
+End PBS Epilogue Mon Sep 26 19:35:40 PDT 2016
+----------------------------------------
